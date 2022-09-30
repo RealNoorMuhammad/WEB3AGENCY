@@ -31,9 +31,6 @@ const Footer = () => {
           <a href="https://twitter.com/sndc8_xyz" className="me-4 text-reset">
             <BsDiscord />
           </a>
-          <a href="https://twitter.com/sndc8_xyz" className="me-4 text-reset">
-            <img src={open} style={{ height: "15px" }} />
-          </a>
         </div>
       </section>
 
@@ -45,7 +42,9 @@ const Footer = () => {
                 <MDBIcon icon="gem" className="me--1" />
                 SNDC8 Web3 | Agency
               </h6>
-              <p   style={{ color: "#fff", fontWeight: "600" }}>Copyright © 2022 | All rights reserved.</p>
+              <p style={{ color: "#fff", fontWeight: "600" }}>
+                Copyright © 2022 | All rights reserved.
+              </p>
             </MDBCol>
 
             <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">

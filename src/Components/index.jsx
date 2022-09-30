@@ -7,5 +7,5 @@ export { default as HeadSection } from "./HeadSection";
 export { default as Team } from "./Team";
 export { default as About } from "./Aboutus";
 
-export { default as FAQ } from "./FAQ";
+
 export { default as Footer } from "./Footer";

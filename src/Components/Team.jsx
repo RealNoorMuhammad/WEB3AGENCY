@@ -25,10 +25,19 @@ import { Grid } from "@mui/material";
 
 import vat from "../images/vat.png";
 
+import NuFracTal from "../images/Nufractal.png";
+import SonOfLasG from "../images/Son.png";
+import reeee from "../images/Ree.png";
+import Milk from "../images/Milk.png";
+
+import Team5 from "../images/Team5.png";
+import Team6 from "../images/Team6.png";
+import Team7 from "../images/Team7.png";
+import Team8 from "../images/Team8.png";
+
 const Team = () => {
   return (
     <div id="team">
-    
       <Bounce top>
         <h1
           style={{
@@ -79,10 +88,10 @@ const Team = () => {
                   borderRadius: "10px",
                 }}
               >
-                <a href="https://twitter.com/NuFracTal">
+                <a href="https://twitter.com/Sonoflasg">
                   {" "}
                   <MDBCardImage
-                    src={vat}
+                    src={SonOfLasG}
                     position="top"
                     alt="..."
                     style={{
@@ -120,7 +129,7 @@ const Team = () => {
                 <a href="https://twitter.com/NuFracTal">
                   {" "}
                   <MDBCardImage
-                    src={vat}
+                    src={NuFracTal}
                     position="top"
                     alt="..."
                     style={{
@@ -155,10 +164,10 @@ const Team = () => {
                   borderRadius: "10px",
                 }}
               >
-                <a href="https://twitter.com/NuFracTal">
+                <a href="https://twitter.com/reeee88">
                   {" "}
                   <MDBCardImage
-                    src={vat}
+                    src={reeee}
                     position="top"
                     alt="..."
                     style={{
@@ -193,10 +202,10 @@ const Team = () => {
                   borderRadius: "10px",
                 }}
               >
-                <a href="https://twitter.com/NuFracTal">
+                <a href="">
                   {" "}
                   <MDBCardImage
-                    src={vat}
+                    src={Milk}
                     position="top"
                     alt="..."
                     style={{
@@ -221,6 +230,7 @@ const Team = () => {
               </MDBCard>
             </Grid>
           </SwiperSlide>
+          
           <SwiperSlide>
             <Grid item md={6} xs={12} sm={12} lg={3}>
               <MDBCard
@@ -231,10 +241,10 @@ const Team = () => {
                   borderRadius: "10px",
                 }}
               >
-                <a href="https://twitter.com/NuFracTal">
+                <a href="">
                   {" "}
                   <MDBCardImage
-                    src={vat}
+                    src={Team5}
                     position="top"
                     alt="..."
                     style={{
@@ -269,10 +279,10 @@ const Team = () => {
                   borderRadius: "10px",
                 }}
               >
-                <a href="https://twitter.com/NuFracTal">
+                <a href="">
                   {" "}
                   <MDBCardImage
-                    src={vat}
+                    src={Team6}
                     position="top"
                     alt="..."
                     style={{
@@ -307,10 +317,10 @@ const Team = () => {
                   borderRadius: "10px",
                 }}
               >
-                <a href="https://twitter.com/NuFracTal">
+                <a href="">
                   {" "}
                   <MDBCardImage
-                    src={vat}
+                    src={Team7}
                     position="top"
                     alt="..."
                     style={{
@@ -345,10 +355,10 @@ const Team = () => {
                   borderRadius: "10px",
                 }}
               >
-                <a href="https://twitter.com/NuFracTal">
+                <a href="">
                   {" "}
                   <MDBCardImage
-                    src={vat}
+                    src={Team8}
                     position="top"
                     alt="..."
                     style={{

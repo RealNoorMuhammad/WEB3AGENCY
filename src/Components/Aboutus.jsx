@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid } from "@mui/material";
 
-import eth from "../images/ethe.webp";
+import eth from "../images/gip.gif";
 const Aboutus = () => {
   return (
     <div id="about">
@@ -36,7 +36,7 @@ const Aboutus = () => {
               style={{
                 color: "#fff",
                 fontSize: "20px",
-                fontWeight: "100",
+                fontWeight: "500",
                 justifyContent: "center",
                 textAlign: "center",
               }}
@@ -54,7 +54,10 @@ const Aboutus = () => {
               elevate, and innovate in the web3 space.
             </p>
           </Grid>
+        
           <Grid item md={6} lg={6} xs={12} sm={12}>
+          <br />
+
             <p
               className="b-game-card"
               style={{ color: "#fff", fontSize: "20px", fontWeight: "100" }}
@@ -62,7 +65,12 @@ const Aboutus = () => {
               <img
                 className="b-game-card__cover"
                 src={eth}
-                style={{ height: "100%", width: "100%"  , position:"relative" , top:"-80px"}}
+                style={{
+                  height: "100%",
+                  width: "90%",
+                  position: "relative",
+                  top: "-50px",
+                }}
               />
             </p>
           </Grid>

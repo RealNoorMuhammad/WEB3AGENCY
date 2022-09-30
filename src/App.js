@@ -6,12 +6,12 @@ import {
   Team,
   About,
   TDSldier,
-  FAQ,
+
   Footer,
 } from "../src/Components/index.jsx";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Swiper from "swiper";
+
 
 import "swiper/css";
 function App() {
@@ -26,7 +26,9 @@ function App() {
             <br />
             <br />
             <br />
+            <br />
             <About />
+            <br />
             <br />
             <br />
             <br />
@@ -34,12 +36,12 @@ function App() {
             <br />
             <br />
             <br />
+            <br />
+            <br />
 
             <Team />
-            <br />
-            <br />
-            <br />
-            <FAQ />
+           
+          
             <br />
             <br />
             <br />

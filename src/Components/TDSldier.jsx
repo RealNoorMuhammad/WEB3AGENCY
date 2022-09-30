@@ -19,8 +19,6 @@ import { EffectCoverflow, Pagination, Autoplay } from "swiper";
 const TDSldier = () => {
   return (
     <div id="services">
-     
-
       <Bounce top>
         <h1
           style={{
@@ -64,195 +62,133 @@ const TDSldier = () => {
             modules={[EffectCoverflow, Autoplay, Pagination]}
             className="mySwiper"
           >
+          
             <SwiperSlide>
-              <Card
-                sx={{ maxWidth: 345 }}
-                style={{
-                  height: "100%",
-                  backgroundColor: "#4343",
-                  borderRadius: "20px",
-                  border: "1px solid #fff",
-                }}
-              >
-                <CardActionArea>
-                  <CardContent style={{ color: "#fff" }}>
-                    <Typography gutterBottom variant="h5" component="div">
-                      Service
-                    </Typography>
-                    <Typography
-                      variant="body2"
-                      color="text.secondary"
-                      style={{ color: "#fff" }}
-                    >
-                      Service Description
-                    </Typography>
-                    <br />
-                  </CardContent>
-                </CardActionArea>
-              </Card>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Card
-                sx={{ maxWidth: 345 }}
-                style={{
-                  height: "100%",
-                  backgroundColor: "#4343",
-                  borderRadius: "20px",
-                  border: "1px solid #fff",
-                }}
-              >
-                <CardActionArea>
-                  <CardContent style={{ color: "#fff" }}>
-                    <Typography gutterBottom variant="h5" component="div">
-                      Service
-                    </Typography>
-                    <Typography
-                      variant="body2"
-                      color="text.secondary"
-                      style={{ color: "#fff" }}
-                    >
-                      Service Description
-                    </Typography>
-                    <Typography
-                      variant="body2"
-                      color="text.secondary"
-                      style={{ color: "#fff" }}
-                    >
-                      Cont
-                    </Typography>
-                    <Typography
-                      variant="body2"
-                      color="text.secondary"
-                      style={{ color: "#fff" }}
-                    >
-                      Cont
-                    </Typography>
-                  </CardContent>
-                </CardActionArea>
-              </Card>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Card
-                sx={{ maxWidth: 345 }}
-                style={{
-                  height: "100%",
-                  backgroundColor: "#4343",
-                  borderRadius: "20px",
-                  border: "1px solid #fff",
-                }}
-              >
-                <CardActionArea>
-                  <CardContent style={{ color: "#fff" }}>
-                    <Typography gutterBottom variant="h5" component="div">
-                      Service
-                    </Typography>
-                    <Typography
-                      variant="body2"
-                      color="text.secondary"
-                      style={{ color: "#fff" }}
-                    >
-                      Service Description
-                    </Typography>
-                    <Typography
-                      variant="body2"
-                      color="text.secondary"
-                      style={{ color: "#fff" }}
-                    >
-                      Cont
-                    </Typography>
-                    <Typography
-                      variant="body2"
-                      color="text.secondary"
-                      style={{ color: "#fff" }}
-                    >
-                      Cont
-                    </Typography>
-                  </CardContent>
-                </CardActionArea>
-              </Card>
+
+              <div class="box">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <div class="content">
+                  <h2 style={{ fontSize: "24px", textAlign: "center" }}>
+                    {" "}
+                    Web3 Consulting{" "}
+                  </h2>
+                  <br />
+                  <p style={{ textAlign: "center" }}>
+                    <a>Description</a>
+                  </p>
+                </div>
+              </div>
+
             </SwiperSlide>
 
             <SwiperSlide>
-              <Card
-                sx={{ maxWidth: 345 }}
-                style={{
-                  height: "100%",
-                  backgroundColor: "#4343",
-                  borderRadius: "20px",
-                  border: "1px solid #fff",
-                }}
-              >
-                <CardActionArea>
-                  <CardContent style={{ color: "#fff" }}>
-                    <Typography gutterBottom variant="h5" component="div">
-                      Service
-                    </Typography>
-                    <Typography
-                      variant="body2"
-                      color="text.secondary"
-                      style={{ color: "#fff" }}
-                    >
-                      Service Description
-                    </Typography>
-                    <Typography
-                      variant="body2"
-                      color="text.secondary"
-                      style={{ color: "#fff" }}
-                    >
-                      Cont
-                    </Typography>
-                    <Typography
-                      variant="body2"
-                      color="text.secondary"
-                      style={{ color: "#fff" }}
-                    >
-                      Cont
-                    </Typography>
-                  </CardContent>
-                </CardActionArea>
-              </Card>
+
+              <div class="box">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <div class="content">
+                  <h2 style={{ fontSize: "24px", textAlign: "center" }}>
+                    {" "}
+                    Web3 Strategy{" "}
+                  </h2>
+                  <br />
+                  <p style={{ textAlign: "center" }}>
+                    <a>Description</a>
+                  </p>
+                  <p style={{ textAlign: "center" }}>
+                    <a>Cont</a>
+                  </p>
+                  <p style={{ textAlign: "center" }}>
+                    <a>Cont</a>
+                  </p>
+                </div>
+              </div>
+
+              
             </SwiperSlide>
 
             <SwiperSlide>
-              <Card
-                sx={{ maxWidth: 345 }}
-                style={{
-                  height: "100%",
-                  backgroundColor: "#4343",
-                  borderRadius: "20px",
-                  border: "1px solid #fff",
-                }}
-              >
-                <CardActionArea>
-                  <CardContent style={{ color: "#fff" }}>
-                    <Typography gutterBottom variant="h5" component="div">
-                      Service
-                    </Typography>
-                    <Typography
-                      variant="body2"
-                      color="text.secondary"
-                      style={{ color: "#fff" }}
-                    >
-                      Service Description
-                    </Typography>
-                    <Typography
-                      variant="body2"
-                      color="text.secondary"
-                      style={{ color: "#fff" }}
-                    >
-                      Cont
-                    </Typography>
-                    <Typography
-                      variant="body2"
-                      color="text.secondary"
-                      style={{ color: "#fff" }}
-                    >
-                      Cont
-                    </Typography>
-                  </CardContent>
-                </CardActionArea>
-              </Card>
+              <div class="box">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <div class="content">
+                  <h2 style={{ fontSize: "24px", textAlign: "center" }}>
+                    {" "}
+                    Artwork & Metadata{" "}
+                  </h2>
+                  <br />
+                  <p style={{ textAlign: "center" }}>
+                    <a>Description</a>
+                  </p>
+                  <p style={{ textAlign: "center" }}>
+                    <a>Cont</a>
+                  </p>
+                  <p style={{ textAlign: "center" }}>
+                    <a>Cont</a>
+                  </p>
+                </div>
+              </div>
             </SwiperSlide>
+
+            <SwiperSlide>
+              <div class="box">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <div class="content">
+                  <h2 style={{ fontSize: "24px", textAlign: "center" }}>
+                    {" "}
+                    Community Building{" "}
+                  </h2>
+                  <br />
+                  <p style={{ textAlign: "center" }}>
+                    <a>Description</a>
+                  </p>
+                  <p style={{ textAlign: "center" }}>
+                    <a>Cont</a>
+                  </p>
+                  <p style={{ textAlign: "center" }}>
+                    <a>Cont</a>
+                  </p>
+                </div>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <div class="box">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <div class="content">
+                  <h2 style={{ fontSize: "24px", textAlign: "center" }}>
+                    {" "}
+                    Robust Network{" "}
+                  </h2>
+                  <br />
+                  <p style={{ textAlign: "center" }}>
+                    <a>Description</a>
+                  </p>
+                  <p style={{ textAlign: "center" }}>
+                    <a>Cont</a>
+                  </p>
+                  <p style={{ textAlign: "center" }}>
+                    <a>Cont</a>
+                  </p>
+                </div>
+              </div>
+            </SwiperSlide>
+
+
+
           </Swiper>
         </Bounce>
       </Bounce>

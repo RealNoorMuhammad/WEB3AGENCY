@@ -78,15 +78,6 @@ const Nave = () => {
                 <BsDiscord style={{ color: "#fff", fontWeight: "600" }} />
               </a>
             </Nav.Link>
-            <Nav.Link href="#roadmap">
-              {" "}
-              <a
-                href="https://twitter.com/sndc8_xyz"
-                className="me-2 text-reset"
-              >
-                <img src={open} style={{ height: "15px" }} />
-              </a>
-            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
