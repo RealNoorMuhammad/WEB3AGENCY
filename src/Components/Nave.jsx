@@ -23,7 +23,7 @@ const Nave = () => {
           </Spin>
         </Navbar.Brand>
 
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" style={{width:"auto"}} />
 
         <span style={{ fontWeight: "600", color: "#fff" }}> Web3 | Agency</span>
         <Navbar.Collapse id="responsive-navbar-nav">
