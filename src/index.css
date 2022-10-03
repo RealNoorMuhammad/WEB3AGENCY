@@ -592,16 +592,16 @@ top: 150px;
 
 
 .mainimg{
-width: 100%;
+width: 80%;
 }
 
 
 
 @media screen and (min-width:1000px) {
 .mainimg{
-  width: 70%;
+  width: 40%;
   position: relative;
-  top:-70px;
+  top:-10px;
 }
 
 }
@@ -618,7 +618,7 @@ top: 10px;
 @media screen and (min-width:1000px) {
   .activi{
     position: relative;
-    top: -70px;
+    top: 30px;
     }
   
   }

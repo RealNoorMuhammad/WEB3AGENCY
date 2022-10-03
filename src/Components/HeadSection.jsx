@@ -1,5 +1,5 @@
 import React from "react";
-import mHeading from "../images/web.png";
+import mHeading from "../images/we.png";
 import Wobble from "react-reveal/Wobble";
 import Zoom from "react-reveal/Zoom";
 import HeadShake from "react-reveal/HeadShake";
@@ -35,6 +35,7 @@ const HeadSection = () => {
               <div className="text-center  pt-5  activi">
                 <h4 className="">
                   <br />
+                  
                   <strong className="main_text  neon">
                     <span> ACTIVATE YOUR WEB3 VISION </span>
                   </strong>
