@@ -27,36 +27,62 @@ const Aboutus = () => {
       <br />
       <div className="container">
         <Grid container spacing={2}>
-          <Grid item md={6} lg={6} xs={12} sm={12}>
+          <Grid
+            item
+            md={6}
+            lg={6}
+            xs={12}
+            sm={12}
+            style={{
+              justifyContent: "center",
+              textAlign: "center",
+            }}
+          >
             <br />
             <br />
             <br />
             <br />
-            <p
-              style={{
-                color: "#fff",
-                fontSize: "20px",
-                fontWeight: "500",
-                justifyContent: "center",
-                textAlign: "center",
-              }}
-            >
-              SNDC8 is a blockchain and NFT native agency helping traditional
-              businesses succeed in the endeavour to incorporate web3
-              strategies. Leveraging cutting edge technology to bring
-              innovation, untapped revenue streams, loyalty, and unsurpassed
-              community and brand building opportunities to legacy institutions.
-              <br />
-              <br />
-              We are a core group of web3 enthusiasts, builders, professionals,
-              contributors, and creatives. Although broad in our expertise, the
-              central driving force for everything we do is to celebrate,
-              elevate, and innovate in the web3 space.
-            </p>
+
+            <h3>
+              <em>
+                <span
+                  className="other_text"
+                  style={{
+                    color: "#fff",
+                    fontSize: "1rem",
+                    justifyContent: "center",
+                    textAlign: "center",
+                  }}
+                >
+                  SNDC8 is a blockchain and NFT native agency helping
+                  traditional businesses succeed in the endeavour to incorporate
+                  web3 strategies. Leveraging cutting edge technology to bring
+                  innovation, untapped revenue streams, loyalty, and unsurpassed
+                  community and brand building opportunities to legacy
+                  institutions.
+                  <br />
+                  <br />
+                  We are a core group of web3 enthusiasts, builders,
+                  professionals, contributors, and creatives. Although broad in
+                  our expertise, the central driving force for everything we do
+                  is to celebrate, elevate, and innovate in the web3 space.
+                </span>
+              </em>
+            </h3>
           </Grid>
-        
-          <Grid item md={6} lg={6} xs={12} sm={12}>
-          <br />
+
+          <Grid
+            item
+            md={6}
+            lg={6}
+            xs={12}
+            sm={12}
+            style={{
+              justifyContent: "center",
+              textAlign: "center",
+            }}
+          >
+            <br />
 
             <p
               className="b-game-card"

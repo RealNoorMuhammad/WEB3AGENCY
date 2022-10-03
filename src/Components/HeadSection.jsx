@@ -26,18 +26,13 @@ const HeadSection = () => {
                 style={{ justifyContent: "center", textAlign: "center" }}
               >
                 <Jello>
-                  <img
-                    src={mHeading}
-                    className=" p-1"
-                    alt="..."
-                    style={{ width: "70%" }}
-                  />
+                  <img src={mHeading} className="mainimg p-5" alt="..." />
                 </Jello>
               </div>
             </Shake>
             <Wobble></Wobble>
             <Zoom top>
-              <div className="text-center  pt-5" style={{ marginTop: "10%" }}>
+              <div className="text-center  pt-5  activi">
                 <h4 className="">
                   <br />
                   <strong className="main_text  neon">
@@ -45,11 +40,6 @@ const HeadSection = () => {
                   </strong>
                 </h4>
                 <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br /> <br />
                 <br />
                 <br />
                 <br />

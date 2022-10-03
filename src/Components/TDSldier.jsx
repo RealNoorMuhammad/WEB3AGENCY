@@ -19,179 +19,173 @@ import { EffectCoverflow, Pagination, Autoplay } from "swiper";
 const TDSldier = () => {
   return (
     <div id="services">
-      <Bounce top>
-        <h1
-          style={{
-            color: "#fff",
-            borderRadius: "20px",
-            justifyContent: "center",
-            alignItems: "center",
-            display: "flex",
-            fontWeight: "600",
-          }}
-        >
-          {" "}
-          Services
-          <br />
-          <br />
-          <br />
-        </h1>
-      </Bounce>
+      <br />
+      <br />
+      <h1
+        style={{
+          color: "#fff",
+          borderRadius: "20px",
+          justifyContent: "center",
+          alignItems: "center",
+          display: "flex",
+          fontWeight: "600",
+        }}
+      >
+        {" "}
+        Services&nbsp;
+        <br />
+        <br />
+        <br />
+      </h1>
 
       <br />
 
-      <Bounce>
-        <Bounce right>
-          <Swiper
-            effect={"coverflow"}
-            grabCursor={true}
-            centeredSlides={true}
-            slidesPerView={"auto"}
-            coverflowEffect={{
-              rotate: 50,
-              stretch: 0,
-              depth: 100,
-              modifier: 1,
-              slideShadows: true,
-            }}
-            autoplay={{
-              delay: 2500,
-              disableOnInteraction: false,
-            }}
-            pagination={true}
-            modules={[EffectCoverflow, Autoplay, Pagination]}
-            className="mySwiper"
-          >
-          
-            <SwiperSlide>
-
-              <div class="box">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <div class="content">
-                  <h2 style={{ fontSize: "24px", textAlign: "center" }}>
-                    {" "}
-                    Web3 Consulting{" "}
-                  </h2>
-                  <br />
-                  <p style={{ textAlign: "center" }}>
-                    <a>Description</a>
-                  </p>
+      <div className="container">
+        {" "}
+        <Bounce>
+          <Bounce right>
+            <Swiper
+              effect={"coverflow"}
+              grabCursor={true}
+              centeredSlides={true}
+              slidesPerView={"auto"}
+              coverflowEffect={{
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+              }}
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
+              pagination={true}
+              modules={[EffectCoverflow, Autoplay, Pagination]}
+              className="mySwiper"
+            >
+              <SwiperSlide>
+                <div class="box">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <div class="content">
+                    <h2 style={{ fontSize: "24px", textAlign: "center" }}>
+                      {" "}
+                      Web3 Consulting{" "}
+                    </h2>
+                    <br />
+                    <p style={{ textAlign: "center" }}>
+                      <a>Description</a>
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </SwiperSlide>
 
-            </SwiperSlide>
-
-            <SwiperSlide>
-
-              <div class="box">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <div class="content">
-                  <h2 style={{ fontSize: "24px", textAlign: "center" }}>
-                    {" "}
-                    Web3 Strategy{" "}
-                  </h2>
-                  <br />
-                  <p style={{ textAlign: "center" }}>
-                    <a>Description</a>
-                  </p>
-                  <p style={{ textAlign: "center" }}>
-                    <a>Cont</a>
-                  </p>
-                  <p style={{ textAlign: "center" }}>
-                    <a>Cont</a>
-                  </p>
+              <SwiperSlide>
+                <div class="box">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <div class="content">
+                    <h2 style={{ fontSize: "24px", textAlign: "center" }}>
+                      {" "}
+                      Web3 Strategy{" "}
+                    </h2>
+                    <br />
+                    <p style={{ textAlign: "center" }}>
+                      <a>Description</a>
+                    </p>
+                    <p style={{ textAlign: "center" }}>
+                      <a>Cont</a>
+                    </p>
+                    <p style={{ textAlign: "center" }}>
+                      <a>Cont</a>
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </SwiperSlide>
 
-              
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div class="box">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <div class="content">
-                  <h2 style={{ fontSize: "24px", textAlign: "center" }}>
-                    {" "}
-                    Artwork & Metadata{" "}
-                  </h2>
-                  <br />
-                  <p style={{ textAlign: "center" }}>
-                    <a>Description</a>
-                  </p>
-                  <p style={{ textAlign: "center" }}>
-                    <a>Cont</a>
-                  </p>
-                  <p style={{ textAlign: "center" }}>
-                    <a>Cont</a>
-                  </p>
+              <SwiperSlide>
+                <div class="box">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <div class="content">
+                    <h2 style={{ fontSize: "24px", textAlign: "center" }}>
+                      {" "}
+                      Artwork & Metadata{" "}
+                    </h2>
+                    <br />
+                    <p style={{ textAlign: "center" }}>
+                      <a>Description</a>
+                    </p>
+                    <p style={{ textAlign: "center" }}>
+                      <a>Cont</a>
+                    </p>
+                    <p style={{ textAlign: "center" }}>
+                      <a>Cont</a>
+                    </p>
+                  </div>
                 </div>
-              </div>
-            </SwiperSlide>
+              </SwiperSlide>
 
-            <SwiperSlide>
-              <div class="box">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <div class="content">
-                  <h2 style={{ fontSize: "24px", textAlign: "center" }}>
-                    {" "}
-                    Community Building{" "}
-                  </h2>
-                  <br />
-                  <p style={{ textAlign: "center" }}>
-                    <a>Description</a>
-                  </p>
-                  <p style={{ textAlign: "center" }}>
-                    <a>Cont</a>
-                  </p>
-                  <p style={{ textAlign: "center" }}>
-                    <a>Cont</a>
-                  </p>
+              <SwiperSlide>
+                <div class="box">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <div class="content">
+                    <h2 style={{ fontSize: "24px", textAlign: "center" }}>
+                      {" "}
+                      Community Building{" "}
+                    </h2>
+                    <br />
+                    <p style={{ textAlign: "center" }}>
+                      <a>Description</a>
+                    </p>
+                    <p style={{ textAlign: "center" }}>
+                      <a>Cont</a>
+                    </p>
+                    <p style={{ textAlign: "center" }}>
+                      <a>Cont</a>
+                    </p>
+                  </div>
                 </div>
-              </div>
-            </SwiperSlide>
+              </SwiperSlide>
 
-            <SwiperSlide>
-              <div class="box">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <div class="content">
-                  <h2 style={{ fontSize: "24px", textAlign: "center" }}>
-                    {" "}
-                    Robust Network{" "}
-                  </h2>
-                  <br />
-                  <p style={{ textAlign: "center" }}>
-                    <a>Description</a>
-                  </p>
-                  <p style={{ textAlign: "center" }}>
-                    <a>Cont</a>
-                  </p>
-                  <p style={{ textAlign: "center" }}>
-                    <a>Cont</a>
-                  </p>
+              <SwiperSlide>
+                <div class="box">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <div class="content">
+                    <h2 style={{ fontSize: "24px", textAlign: "center" }}>
+                      {" "}
+                      Robust Network{" "}
+                    </h2>
+                    <br />
+                    <p style={{ textAlign: "center" }}>
+                      <a>Description</a>
+                    </p>
+                    <p style={{ textAlign: "center" }}>
+                      <a>Cont</a>
+                    </p>
+                    <p style={{ textAlign: "center" }}>
+                      <a>Cont</a>
+                    </p>
+                  </div>
                 </div>
-              </div>
-            </SwiperSlide>
-
-
-
-          </Swiper>
+              </SwiperSlide>
+            </Swiper>
+          </Bounce>
         </Bounce>
-      </Bounce>
+      </div>
     </div>
   );
 };

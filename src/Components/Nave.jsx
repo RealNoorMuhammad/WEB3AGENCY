@@ -19,13 +19,19 @@ const Nave = () => {
       <Container>
         <Navbar.Brand href="/">
           <Spin>
-            <span style={{ fontWeight: "900" }}>SNDC8</span>
+            <span style={{ fontWeight: "900", fontSize: "24px" }}>SNDC8</span>
           </Spin>
         </Navbar.Brand>
 
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" style={{width:"auto"}} />
+        <Navbar.Toggle
+          aria-controls="responsive-navbar-nav"
+          style={{ width: "auto" }}
+        />
 
-        <span style={{ fontWeight: "600", color: "#fff" }}> Web3 | Agency</span>
+        <span style={{ fontWeight: "600", color: "#fff", fontSize: "17px" }}>
+          {" "}
+          Web3 | Agency
+        </span>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto"></Nav>
           <Nav style={{ justifyContent: "center", textAlign: "center" }}>
@@ -50,14 +56,6 @@ const Nave = () => {
               className="me-2 text-reset"
             >
               Our Team
-            </Nav.Link>
-
-            <Nav.Link
-              href="#faq"
-              style={{ color: "#fff", fontWeight: "600" }}
-              className="me-2 text-reset"
-            >
-              FAQ
             </Nav.Link>
 
             <Nav.Link href="#roadmap">

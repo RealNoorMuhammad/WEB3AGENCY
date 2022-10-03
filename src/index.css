@@ -68,7 +68,7 @@
 }
 
 .firstLayer {
-  width: 80%;
+  width: 100%;
   z-index: 5;
   display: flex;
   flex-direction: column;
@@ -158,7 +158,7 @@ line-height: 150px;
   .other_text{
 color: #fff;
 font-weight: normal;
-font-size: 2rem;
+font-size: 1.4rem;
   }
 }
 
@@ -589,3 +589,36 @@ top: 150px;
 
 
 
+
+
+.mainimg{
+width: 100%;
+}
+
+
+
+@media screen and (min-width:1000px) {
+.mainimg{
+  width: 70%;
+  position: relative;
+  top:-70px;
+}
+
+}
+
+.activi{
+position: relative;
+top: 10px;
+}
+
+
+
+
+
+@media screen and (min-width:1000px) {
+  .activi{
+    position: relative;
+    top: -70px;
+    }
+  
+  }

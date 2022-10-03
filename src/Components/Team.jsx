@@ -38,21 +38,24 @@ import Team8 from "../images/Team8.png";
 const Team = () => {
   return (
     <div id="team">
-      <Bounce top>
-        <h1
-          style={{
-            color: "#fff",
-            borderRadius: "20px",
-            justifyContent: "center",
-            alignItems: "center",
-            display: "flex",
-            fontWeight: "600",
-          }}
-        >
-          {" "}
-          Our Team
-        </h1>
-      </Bounce>
+      <br />
+      <br />
+      <h1
+        style={{
+          color: "#fff",
+          borderRadius: "20px",
+          justifyContent: "center",
+          alignItems: "center",
+          display: "flex",
+          fontWeight: "600",
+        }}
+      >
+        {" "}
+        Our Team&nbsp;
+        <br />
+        <br />
+        <br />
+      </h1>
 
       <br />
       <div className="container">
@@ -230,7 +233,7 @@ const Team = () => {
               </MDBCard>
             </Grid>
           </SwiperSlide>
-          
+
           <SwiperSlide>
             <Grid item md={6} xs={12} sm={12} lg={3}>
               <MDBCard
